@@ -1,0 +1,58 @@
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.temp-card {
+    background-color: rgba(58, 58, 58, 0.216);
+    display: flex;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 13rem;
+    width: fit-content;
+
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.feels-like {
+   background-color: rgba(58, 58, 58, 0.216);
+    display: flex;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 13rem;
+    width: fit-content;
+
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    gap: 1rem;
+}
+
+.container-temp-card {
+    display: flex;
+    gap: 1rem;
+}
