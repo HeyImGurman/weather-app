@@ -7,7 +7,7 @@ export default function TempCard({ city }) {
 
     const [temp, setTemp] = useState(null);
 
-    const API_key = "f265299841d8ce7a70218df25c8d9ab4";
+    const API_key = import.meta.env.VITE_API_KEY;
 
     function fetchWeather() {
 
@@ -56,7 +56,7 @@ export default function TempCard({ city }) {
 
             <div className="feels-like">
                 <h1>Feels like <u>{temp.main.feels_like}</u>° C</h1>
-                <h1>Humidity is <u>{temp.main.pressure}</u></h1>
+                <h1>Humidity is <u>{temp.main.humidity}</u></h1>
                 <h1>Wind speed is <u>{temp.wind.speed}</u> m/s</h1>
             </div>
 
